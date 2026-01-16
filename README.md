@@ -251,17 +251,14 @@ Report saved to: ./qc_report/scQCFilter_report_2024-01-16_123456.html
 ### Q: 支持自定义的 Seurat 对象吗？
 **A:** 是的！只要对象包含 `RNA` assay 和 `meta.data` 就可以。scQCFilter 会自动处理不同的数据格式。
 
-### Q: 如何在论文中引用？
-**A:** 详见 `CITATION.txt` 文件。
-
 ## 许可证
 
 MIT License
 
 ## 联系方式
 
-**作者:** Zhijun Feng (冯志军)  
-**邮箱:** xiaoqqjun@sina.com  
+**作者:** Zhijun Feng  
+**邮箱:** xiaoqqjun@sina.com  / fengzhj18@sina.com
 **GitHub:** https://github.com/xiaoqqjun/scQCFilter  
 **ORCID:** 0000-0003-1813-1669  
 **WeChat:** 博士后的小酒馆  
@@ -274,4 +271,3 @@ MIT License
 
 **版本:** v0.1.2  
 **发布日期:** 2024-01-16  
-**状态:** 生产就绪 ✅
