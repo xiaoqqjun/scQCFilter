@@ -19,6 +19,9 @@
 # 从源代码安装
 install.packages("scQCFilter.tar.gz", repos = NULL, type = "source")
 
+# install.packages("devtools")
+devtools::install_github("xiaoqqjun/scQCFilter")
+
 # 加载包
 library(scQCFilter)
 ```
