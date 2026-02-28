@@ -340,8 +340,8 @@ MIT License
 
 ## 联系方式
 
-**作者:** Zhijun Feng (冯志军)  
-**邮箱:** xiaoqqjun@sina.com  
+**作者:** Zhijun Feng
+**邮箱:** fenzhj18@sina.com  / xiaoqqjun@sina.com
 **GitHub:** https://github.com/xiaoqqjun/scQCFilter  
 **ORCID:** 0000-0003-1813-1669  
 **WeChat:** 博士后的小酒馆  
