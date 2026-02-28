@@ -86,10 +86,9 @@ report$parameters    # 使用的参数
 ## 安装
 
 ```r
-# 从源代码安装
-install.packages("scQCFilter.tar.gz", repos = NULL, type = "source")
-
-# 加载包
+# GitHub安装
+devtools::install_github("xiaoqqjun/scQCFilter")
+# 加载
 library(scQCFilter)
 ```
 
