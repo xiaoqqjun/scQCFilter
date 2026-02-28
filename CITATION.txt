@@ -1,0 +1,139 @@
+CITATION INFORMATION FOR scQCFilter
+═════════════════════════════════════════════════════════════════════════════
+
+Package: scQCFilter
+Title: Single-cell Quality Control Filtering and Analysis Package
+Version: 2.1.0
+Release Date: 2026-02-28
+Author: Zhijun Feng
+Maintainer: Zhijun Feng <xiaoqqjun@sina.com>
+License: MIT
+Repository: https://github.com/xiaoqqjun/scQCFilter
+
+
+RECOMMENDED CITATIONS
+═════════════════════════════════════════════════════════════════════════════
+
+BibTeX format:
+
+@software{feng2026scqcfilter,
+  title={scQCFilter: Single-cell Quality Control Filtering and Analysis Package},
+  author={Feng, Zhijun},
+  year={2026},
+  url={https://github.com/xiaoqqjun/scQCFilter},
+  note={R package version 2.1.0}
+}
+
+
+AUTHOR INFORMATION
+═════════════════════════════════════════════════════════════════════════════
+
+Zhijun Feng
+- Email: xiaoqqjun@sina.com
+- ORCID: 0000-0003-1813-1669 (https://orcid.org/0000-0003-1813-1669)
+- GitHub: @xiaoqqjun (https://github.com/xiaoqqjun)
+- WeChat Official Account: 博士后的小酒馆
+
+
+REFERENCES FOR DEPENDENCIES AND METHODS
+═════════════════════════════════════════════════════════════════════════════
+
+Core Dependencies:
+
+1. Seurat Framework
+   Hao Y, Hao S, Andersen-Nissen E, et al. Integrated analysis of 
+   multimodal single-cell data. Cell. 2021;184(13):3573-3587.e29.
+   DOI: 10.1016/j.cell.2021.04.048
+
+2. ggplot2 Visualization
+   Wickham H, Chang W, Henry L, et al. ggplot2: Create Elegant Data 
+   Visualisations Using the Grammar of Graphics. 2016.
+   https://ggplot2.tidyverse.org/
+
+3. Tidyverse Data Science
+   Wickham H, Averick M, Bryan J, et al. Welcome to the tidyverse. 
+   Journal of Open Source Software. 2019;4(43):1686.
+   DOI: 10.21105/joss.01686
+
+4. ComplexHeatmap
+   Gu Z, Eils R, Schlesner M. Complex heatmaps reveal patterns and 
+   correlations in multidimensional genomic data. Bioinformatics. 
+   2016;32(18):2847-2849.
+   DOI: 10.1093/bioinformatics/btw313
+
+
+QC METHODOLOGY REFERENCES
+═════════════════════════════════════════════════════════════════════════════
+
+Quality Control Best Practices:
+
+1. Ilicic T, Kim JK, Kolodziejczyk AA, et al. Classification of 
+   low quality cells from single-cell RNA-seq data. Genome Biology. 
+   2016;17(1):29.
+   DOI: 10.1038/nmeth.3734
+
+2. Macosko EZ, Basu A, Satija R, et al. Highly Parallel Genome-wide 
+   Expression Profiling of Individual Cells Using Nanoliter Droplets. 
+   Cell. 2015;161(5):1202-1214.
+   DOI: 10.1016/j.cell.2015.05.002
+
+3. Luecken MD, Theis FJ. Current best practices in single-cell RNA-seq 
+   analysis: a tutorial. Molecular Systems Biology. 2019;15(6):e8746.
+   DOI: 10.15252/msb.20188746
+
+4. McCarthy DJ, Campbell KR, Lun ATL, et al. Scater: pre-processing 
+   visualisation of single-cell RNA-seq data. Bioinformatics. 
+   2017;33(8):1179-1186.
+   DOI: 10.1093/bioinformatics/btw777
+
+
+USAGE IN RESEARCH
+═════════════════════════════════════════════════════════════════════════════
+
+In your manuscript's Methods section, you can reference scQCFilter as:
+
+"Quality control filtering was performed using scQCFilter (v2.1.1), 
+a novel R package implementing three-dimensional hierarchical quality 
+assessment. QC parameters were optimized by comparing multiple parameter 
+combinations across samples and cell types..."
+
+In the Results section:
+
+"Multi-dimensional QC analysis revealed that [describe findings]..."
+
+In the Acknowledgments:
+
+"We thank the authors and developers of Seurat, ggplot2, and other 
+R packages used in this analysis."
+
+
+VERSION INFORMATION
+═════════════════════════════════════════════════════════════════════════════
+
+Current Version: 2.1.0 (2026-02-28)
+Status: Production Ready
+
+For the latest version and updates, visit:
+https://github.com/xiaoqqjun/scQCFilter
+
+
+ACKNOWLEDGMENTS TO CITE
+═════════════════════════════════════════════════════════════════════════════
+
+If you find scQCFilter useful, please acknowledge:
+
+- The core R package ecosystem (tidyverse, Seurat)
+- The Bioconductor project for ComplexHeatmap
+- Your funding sources
+
+Example acknowledgment:
+"This research was supported by [grants]. Computational analysis was 
+performed using R statistical software and the Seurat package. We thank 
+the developers of scQCFilter and related bioinformatics tools."
+
+
+═════════════════════════════════════════════════════════════════════════════
+
+For citation support, contact: xiaoqqjun@sina.com
+
+═════════════════════════════════════════════════════════════════════════════

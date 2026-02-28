@@ -1,0 +1,33 @@
+Package: scQCFilter
+Type: Package
+Title: Single-Cell Quality Control Filtering and Multi-Dimensional Analysis
+Version: 2.1.1
+Author: Zhijun Feng
+Maintainer: Zhijun Feng <xiaoqqjun@sina.com>
+Description: A comprehensive R package for quality control filtering of
+    single-cell RNA-seq data with three-dimensional analysis (parameters,
+    groups, and samples). Generates automated HTML reports with pre-filtering
+    QC distribution plots, supports multi-parameter comparison, and provides
+    intelligent parameter recommendations. New in v1.0.0: pre-filtering QC
+    distribution visualization with percentile thresholds (2.5%, 5%, 95%, 97.5%).
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Imports:
+    Seurat,
+    ggplot2,
+    dplyr,
+    tidyr,
+    ComplexHeatmap,
+    patchwork,
+    png,
+    grDevices,
+    graphics
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/xiaoqqjun/scQCFilter
+BugReports: https://github.com/xiaoqqjun/scQCFilter/issues
